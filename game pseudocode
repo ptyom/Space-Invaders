@@ -1,0 +1,22 @@
+start game
+    initialize player at x=4
+    randomly spawn enemy at top row
+    wait for player input (A/B/A+B)
+
+loop forever:
+    clear LED panel
+    draw player (blue)
+    draw enemy (green)
+
+    if bullet is active:
+        draw bullet (red)
+        move bullet up
+        if bullet hits top -> deactivate
+        if bullet hits enemy:
+            reset enemy
+            deactivate bullet
+
+    every 600ms:
+        move enemy down or left/right based on pattern
+        if enemy reaches bottom and hits player:
+            game over
