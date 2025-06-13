@@ -39,7 +39,7 @@ The game loop refreshes every 600ms. Each cycle:
 
 ## 🖥 Alternate Implementations
 
-This project was also ported to Python and Java to showcase logic portability and algorithmic thinking.
+This project was also ported to **Python** and **Java** to showcase logic portability and algorithmic thinking.
 
 ### 🔹 Python (Console Version)
 ```bash
