@@ -1,4 +1,6 @@
 # 🕹️ Space Invaders on BBC micro:bit (MicroBlocks + NeoPixel)
+# Created and developed by:
+# Noor Ansari
 
 Recreated a Space Invaders-style game on the BBC micro:bit using the MicroBlocks visual programming environment and an 8x8 NeoPixel LED grid.
 
@@ -19,7 +21,7 @@ Recreated a Space Invaders-style game on the BBC micro:bit using the MicroBlocks
 
 ## 📦 Languages & Technologies
 
-Plain text: Python (console simulation), Java (logic simulation), MicroBlocks (visual programming), BBC micro:bit, NeoPixel (8x8 LED grid)
+Python (console simulation), Java (logic simulation), MicroBlocks, BBC micro:bit, NeoPixel (8x8 LED grid)
 
 ![MicroBlocks](https://img.shields.io/badge/-MicroBlocks-lightgrey?style=flat-square)
 ![Python](https://img.shields.io/badge/-Python-blue?logo=python&style=flat-square)
@@ -68,7 +70,7 @@ Both Python and Java versions include unit tests that validate all core game log
 
 ### 🔹 Python (Console Version)
 
-The Python implementation (`space_invaders.py`) is refactored into a `Game` class for testing with `unittest`.
+The Python implementation (`space_invaders.py`) is structured as a `Game` class to facilitate testing with `unittest`.
 
 Run the game:
 
@@ -78,7 +80,7 @@ python space_invaders.py
 
 ### 🔸 Java (Logic Simulation)
 
-The Java implementation (SpaceInvaders.java) is also refactored into a modular Game class with test coverage using JUnit 5.
+The Java implementation (`SpaceInvaders.java`) is organized into a modular `Game` class and includes test coverage using `JUnit 5`.
 
 Run the game:
 
