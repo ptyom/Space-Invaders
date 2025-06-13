@@ -44,9 +44,10 @@ This project was also ported to Python and Java to showcase logic portability an
 ### 🔹 Python (Console Version)
 ```bash
 python space_invaders.py
+```
 
 ### 🔸 Java (Logic Simulation)
+```bash
 javac SpaceInvaders.java
 java SpaceInvaders
-
-
+```
