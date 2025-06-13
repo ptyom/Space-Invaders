@@ -1,6 +1,5 @@
 # 🕹️ Space Invaders on BBC micro:bit (MicroBlocks + NeoPixel)
-# Created and developed by:
-# Noor Ansari
+# Created and developed by: Noor Ansari
 
 Recreated a Space Invaders-style game on the BBC micro:bit using the MicroBlocks visual programming environment and an 8x8 NeoPixel LED grid.
 
